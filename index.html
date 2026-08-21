@@ -45,25 +45,14 @@ body{
   box-shadow:0 30px 70px -30px rgba(0,0,0,.7), inset 0 1px 0 rgba(255,255,255,.03);
 }
 
-.eyebrow{
-  font-size:12.5px; letter-spacing:.32em; text-transform:uppercase;
-  color:var(--accent); margin:0 0 20px; font-weight:500;
-}
-.title{
-  font-family:'Gowun Batang', serif; font-weight:700;
-  font-size:clamp(30px,7.5vw,42px); line-height:1.24; margin:0 0 20px; letter-spacing:-.01em;
-}
+.eyebrow{ font-size:12.5px; letter-spacing:.32em; text-transform:uppercase; color:var(--accent); margin:0 0 20px; font-weight:500; }
+.title{ font-family:'Gowun Batang', serif; font-weight:700; font-size:clamp(30px,7.5vw,42px); line-height:1.24; margin:0 0 20px; letter-spacing:-.01em; }
 .lead{ color:var(--muted); line-height:1.75; font-size:15.5px; margin:0 0 20px; }
 .chips{ display:flex; gap:8px; flex-wrap:wrap; margin:0 0 30px; }
 .chip{ font-size:12.5px; color:var(--muted); border:1px solid var(--edge); border-radius:99px; padding:6px 12px; }
 .chip b{ color:var(--accent); font-weight:700; }
 
-.btn{
-  appearance:none; border:none; cursor:pointer; width:100%;
-  font-family:'Noto Sans KR',sans-serif; font-weight:700; font-size:16px;
-  padding:16px 20px; border-radius:14px; transition:transform .15s ease, filter .2s ease;
-  background:var(--accent); color:#1c1206;
-}
+.btn{ appearance:none; border:none; cursor:pointer; width:100%; font-family:'Noto Sans KR',sans-serif; font-weight:700; font-size:16px; padding:16px 20px; border-radius:14px; transition:transform .15s ease, filter .2s ease; background:var(--accent); color:#1c1206; }
 .btn:hover{ transform:translateY(-2px); filter:brightness(1.05); }
 .btn:active{ transform:translateY(0); }
 .note{ text-align:center; color:var(--muted); font-size:12.5px; margin:14px 0 0; }
@@ -77,19 +66,10 @@ body{
 .bar{ height:4px; border-radius:99px; background:#2c2540; overflow:hidden; margin-bottom:28px; }
 .bar span{ display:block; height:100%; background:linear-gradient(90deg,#E3A24A,#d98450); border-radius:99px; transition:width .45s cubic-bezier(.5,.1,.2,1); }
 
-.q{
-  font-family:'Gowun Batang', serif; font-weight:700;
-  font-size:clamp(21px,4.6vw,26px); line-height:1.5; margin:0 0 24px; letter-spacing:-.01em;
-}
+.q{ font-family:'Gowun Batang', serif; font-weight:700; font-size:clamp(21px,4.6vw,26px); line-height:1.5; margin:0 0 24px; letter-spacing:-.01em; }
 
 .opts{ display:flex; flex-direction:column; gap:11px; }
-.opt{
-  text-align:left; cursor:pointer; width:100%;
-  background:#1c1830; border:1px solid var(--edge); border-radius:14px;
-  color:var(--ink); font-family:inherit; font-size:15px; line-height:1.5;
-  padding:16px 18px; transition:border-color .18s, background .18s, transform .12s;
-  opacity:0; animation:rise .5s ease forwards;
-}
+.opt{ text-align:left; cursor:pointer; width:100%; background:#1c1830; border:1px solid var(--edge); border-radius:14px; color:var(--ink); font-family:inherit; font-size:15px; line-height:1.5; padding:16px 18px; transition:border-color .18s, background .18s, transform .12s; opacity:0; animation:rise .5s ease forwards; }
 .opt:hover{ border-color:var(--accent); background:#241d38; transform:translateX(3px); }
 .opt:active{ transform:translateX(0) scale(.995); }
 
@@ -99,17 +79,8 @@ body{
 
 .rtop{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin:0 0 4px; }
 .rtag{ font-size:13px; letter-spacing:.06em; color:var(--muted); margin:0; }
-.badge{
-  font-size:12px; font-weight:700; letter-spacing:.02em; white-space:nowrap;
-  border-radius:99px; padding:6px 12px;
-  background:color-mix(in srgb, var(--accent) 16%, transparent);
-  border:1px solid color-mix(in srgb, var(--accent) 45%, transparent);
-  color:var(--accent);
-}
-.rname{
-  font-family:'Gowun Batang', serif; font-weight:700;
-  font-size:clamp(30px,7.5vw,40px); line-height:1.2; margin:6px 0 20px; color:var(--accent);
-}
+.badge{ font-size:12px; font-weight:700; letter-spacing:.02em; white-space:nowrap; border-radius:99px; padding:6px 12px; background:color-mix(in srgb, var(--accent) 16%, transparent); border:1px solid color-mix(in srgb, var(--accent) 45%, transparent); color:var(--accent); }
+.rname{ font-family:'Gowun Batang', serif; font-weight:700; font-size:clamp(30px,7.5vw,40px); line-height:1.2; margin:6px 0 20px; color:var(--accent); }
 .rblurb{ line-height:1.78; font-size:16px; margin:0 0 24px; }
 .why{ background:#1b1730; border:1px solid var(--edge); border-radius:14px; padding:16px 18px; margin:0 0 18px; }
 .why-lbl{ display:block; font-size:12px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; margin-bottom:7px; color:var(--accent); }
@@ -122,12 +93,7 @@ body{
 .arrow{ flex:1; height:2px; border-radius:2px; opacity:.5; background:var(--accent); }
 
 .tabs{ display:flex; gap:8px; margin:0 0 6px; }
-.tab{
-  flex:1; cursor:pointer; font-family:inherit; font-size:13px; font-weight:700;
-  padding:10px 6px; border-radius:11px; text-align:center; line-height:1.3;
-  background:#1c1830; border:1px solid var(--edge); color:var(--muted);
-  transition:all .16s;
-}
+.tab{ flex:1; cursor:pointer; font-family:inherit; font-size:13px; font-weight:700; padding:10px 6px; border-radius:11px; text-align:center; line-height:1.3; background:#1c1830; border:1px solid var(--edge); color:var(--muted); transition:all .16s; }
 .tab small{ display:block; font-weight:500; font-size:10.5px; opacity:.8; margin-top:2px; }
 .tab:hover{ color:var(--ink); }
 .tab.on{ color:var(--accent); border-color:color-mix(in srgb, var(--accent) 55%, transparent); background:color-mix(in srgb, var(--accent) 12%, transparent); }
@@ -142,11 +108,7 @@ body{
 .book-title{ margin:0 0 4px; font-size:16px; font-weight:700; line-height:1.4; }
 .book-author{ font-weight:400; color:var(--muted); font-size:14px; }
 .book-reason{ margin:0; color:var(--muted); line-height:1.6; font-size:14px; }
-.book-gate{
-  background:color-mix(in srgb, var(--accent) 12%, transparent);
-  border:1px solid color-mix(in srgb, var(--accent) 40%, transparent);
-  border-radius:14px; padding:15px 16px; margin-bottom:4px;
-}
+.book-gate{ background:color-mix(in srgb, var(--accent) 12%, transparent); border:1px solid color-mix(in srgb, var(--accent) 40%, transparent); border-radius:14px; padding:15px 16px; margin-bottom:4px; }
 .book-gate + .book{ border-top:none; }
 
 .share{ display:flex; gap:10px; margin:24px 0 8px; }
@@ -155,7 +117,6 @@ body{
 .btn-ghost:hover{ filter:none; background:#241d38; }
 
 .disc{ font-size:11.5px; color:#7a6f8c; line-height:1.6; margin:18px 0 0; }
-
 .foot{ position:relative; z-index:1; margin-top:26px; color:#6f647f; font-size:12px; letter-spacing:.04em; text-align:center; }
 
 @media (max-width:420px){ .card{ padding:28px 22px; } }
@@ -182,78 +143,132 @@ const LEVELS = {
       cap:"내공 있는 독자를 위한 도전. 밀도 높고 오래 곱씹게 되는 작품들이에요.", gate:"도전작" }
 };
 
-/* ================= 취향 유형 + 등급별 책 ================= */
+/* ================= 취향 유형 + 등급별 책(각 5권) ================= */
 const TYPES = {
   thriller:{ name:"밤을 새우는 추적자", tag:"스릴 · 반전", accent:"#D06A57",
     blurb:"당신은 '다음이 궁금해서' 책장을 넘기는 사람. 조여드는 긴장과 마지막의 뒤통수 한 방이 있으면, 소설이 이렇게 재밌는 거였나 싶어집니다.",
     why:"줄거리가 앞으로 굴러가는 힘이 세서 손이 멈추질 않습니다. 몰입의 쾌감으로 이야기를 즐기는 취향입니다.",
     books:{
       1:[["용의자 X의 헌신","히가시노 게이고","빈틈없는 반전. 술술 읽히는데 마지막이 오래 남습니다."],
-         ["그리고 아무도 없었다","애거서 크리스티","미스터리의 고전. 한 명씩 사라지는 긴장감이 페이지를 넘기게 합니다."]],
+         ["그리고 아무도 없었다","애거서 크리스티","한 명씩 사라지는 긴장감. 미스터리의 고전."],
+         ["오리엔트 특급 살인","애거서 크리스티","닫힌 열차 안의 살인. 결말의 한 방이 통쾌합니다."],
+         ["셜록 홈즈 시리즈","아서 코난 도일","짧은 단편부터 골라 읽을 수 있어 부담이 적습니다."],
+         ["백설공주에게 죽음을","넬레 노이하우스","탄탄한 독일 추리물. 페이지가 빠르게 넘어갑니다."]],
       2:[["화차","미야베 미유키","사회의 그늘을 파고드는 일본 미스터리의 수작."],
-         ["셔터 아일랜드","데니스 루헤인","마지막 장을 덮고도 다시 처음을 뒤적이게 됩니다."]],
+         ["셔터 아일랜드","데니스 루헤인","마지막 장을 덮고도 처음을 다시 뒤적이게 됩니다."],
+         ["밀레니엄: 여자를 증오한 남자들","스티그 라르손","묵직한 스칸디나비아 스릴러의 대표작."],
+         ["양들의 침묵","토머스 해리스","쫓는 자와 쫓기는 자의 팽팽한 심리전."],
+         ["골든 슬럼버","이사카 코타로","누명 쓴 남자의 하루. 촘촘한 구성이 일품입니다."]],
       3:[["장미의 이름","움베르토 에코","중세 수도원의 연쇄 죽음. 지식과 추리가 얽힌 지적인 미스터리."],
-         ["죄와 벌","표도르 도스토옙스키","범죄 뒤 인간의 심연을 파고드는 문학의 정점."]]
+         ["죄와 벌","표도르 도스토옙스키","범죄 뒤 인간의 심연을 파고드는 문학의 정점."],
+         ["비밀의 계절","도나 타트","엘리트 그룹의 어두운 비밀. 문학적이고 서늘합니다."],
+         ["리플리","퍼트리샤 하이스미스","죄의식 없는 위장. 심리 스릴러의 원형."],
+         ["노인을 위한 나라는 없다","코맥 매카시","건조한 문장이 만드는 지독한 긴장."]]
     }},
   healing:{ name:"마음을 데우는 사람", tag:"위로 · 힐링", accent:"#E3A24A",
     blurb:"당신에게 이야기는 손난로 같은 것. 읽고 나면 마음 한켠이 데워지고, 오늘 하루가 조금 견딜 만해집니다.",
     why:"문장이 편안하고 인물이 다정한 이야기에서 위로를 얻는 취향입니다.",
     books:{
-      1:[["불편한 편의점","김호연","쉽고 따뜻한 우리 소설. 하루 한 편씩 읽기 좋아 입문에 제격."],
-         ["미드나잇 라이브러리","매트 헤이그","'다른 삶을 살았다면' 하는 위로. 잔잔하게 마음을 다독입니다."]],
+      1:[["불편한 편의점","김호연","쉽고 따뜻한 우리 소설. 하루 한 편씩 읽기 좋습니다."],
+         ["미드나잇 라이브러리","매트 헤이그","'다른 삶을 살았다면' 하는 위로."],
+         ["달러구트 꿈 백화점","이미예","포근한 상상이 가득한, 부담 없는 판타지."],
+         ["어서 오세요, 휴남동 서점입니다","황보름","동네 서점의 잔잔한 온기. 마음이 느긋해집니다."],
+         ["메리골드 마음 세탁소","윤정은","상처를 빨아주는 세탁소. 다정한 판타지."]],
       2:[["오베라는 남자","프레드릭 배크만","무뚝뚝한 노인의 이야기가 뭉클하게 번집니다."],
-         ["나미야 잡화점의 기적","히가시노 게이고","시간을 넘어 오가는 편지들. 다 읽으면 뭉클해집니다."]],
+         ["나미야 잡화점의 기적","히가시노 게이고","시간을 넘어 오가는 편지들. 다 읽으면 뭉클합니다."],
+         ["창문 넘어 도망친 100세 노인","요나스 요나손","유쾌한 소동극. 웃다 보면 힘이 납니다."],
+         ["미 비포 유","조조 모예스","웃음과 눈물이 함께 오는 사랑 이야기."],
+         ["갈매기의 꿈","리처드 바크","높이 날고 싶은 갈매기의 우화. 짧지만 오래 남습니다."]],
       3:[["모모","미하엘 엔데","시간과 삶을 우화로 풀어낸, 위로가 깊어지는 고전."],
-         ["인생","위화","삶의 무게를 견디는 한 사람. 담담해서 더 오래 남습니다."]]
+         ["인생","위화","삶의 무게를 견디는 한 사람. 담담해서 더 오래 남습니다."],
+         ["연금술사","파울로 코엘료","꿈을 찾아 떠나는 여정. 문장이 잠언 같습니다."],
+         ["그리스인 조르바","니코스 카잔차키스","자유로운 영혼이 건네는 삶의 활력."],
+         ["나의 라임 오렌지나무","J.M. 바스콘셀루스","한 소년의 성장과 상실. 오래 마음에 남습니다."]]
     }},
   fantasy:{ name:"다른 세계의 여행자", tag:"환상 · 모험", accent:"#8574C4",
     blurb:"당신은 지금 여기가 아닌 곳으로 떠나고 싶은 사람. 문 하나만 열면 마법과 모험이 기다리는 세계, 그 안에서 가장 살아납니다.",
     why:"세계에 빠지는 재미가 커서, 한번 발을 들이면 두께가 무섭지 않은 취향입니다.",
     books:{
-      1:[["해리 포터와 마법사의 돌","J.K. 롤링","판타지 입문의 관문. 재미로 첫 장을 넘기게 됩니다."],
-         ["나니아 연대기","C.S. 루이스","옷장 너머의 세계. 짧고 명료해 부담이 적습니다."]],
+      1:[["해리 포터와 마법사의 돌","J.K. 롤링","판타지 입문의 관문. 재미로 첫 장을 넘깁니다."],
+         ["나니아 연대기","C.S. 루이스","옷장 너머의 세계. 짧고 명료합니다."],
+         ["호빗","J.R.R. 톨킨","반지의 제왕으로 가는 가볍고 유쾌한 첫걸음."],
+         ["오즈의 마법사","L. 프랭크 바움","노란 벽돌길을 따라가는 고전 모험담."],
+         ["끝없는 이야기","미하엘 엔데","책 속으로 빨려드는 상상. 나이와 상관없이 즐겁습니다."]],
       2:[["반지의 제왕","J.R.R. 톨킨","판타지의 원류. 세계에 통째로 빠져듭니다."],
-         ["어스시의 마법사","어슐러 K. 르 귄","마법을 배우는 소년의 성장. 문장이 깊습니다."]],
+         ["어스시의 마법사","어슐러 K. 르 귄","마법을 배우는 소년의 성장. 문장이 깊습니다."],
+         ["미스트본: 최후의 제국","브랜든 샌더슨","촘촘한 마법 체계와 통쾌한 반전."],
+         ["바람의 이름","패트릭 로스퍼스","전설이 된 남자의 회고. 아름답고 몰입감 있습니다."],
+         ["스타더스트","닐 게이먼","별을 찾아 떠나는 어른을 위한 동화."]],
       3:[["얼음과 불의 노래","조지 R.R. 마틴","방대한 세계와 얽힌 권력. 몰입의 밀도가 다릅니다."],
-         ["조너선 스트레인지와 마법사 노렐","수재나 클라크","각주까지 촘촘한, 문학적인 마법의 세계."]]
+         ["조너선 스트레인지와 마법사 노렐","수재나 클라크","각주까지 촘촘한, 문학적인 마법의 세계."],
+         ["아메리칸 갓","닐 게이먼","신들이 살아 숨 쉬는 미국. 어둡고 밀도 높습니다."],
+         ["위쳐 시리즈","안제이 사프콥스키","회색 지대의 괴물 사냥꾼. 성숙한 다크 판타지."],
+         ["멋진 징조들","닐 게이먼·테리 프래쳇","종말을 앞둔 천사와 악마. 재치가 번뜩입니다."]]
     }},
   literary:{ name:"여운을 줍는 사람", tag:"마음 · 문학", accent:"#C08AA0",
     blurb:"당신은 사건보다 '남는 것'을 아끼는 사람. 아름다운 문장 한 줄, 오래 곱씹게 되는 마지막 장면에서 진짜 소설의 맛을 느낍니다.",
     why:"빠른 전개보다 감정과 문장의 깊이를 즐기는 취향입니다.",
     books:{
-      1:[["쇼코의 미소","최은영","짧은 단편집. 잔잔하고 깊어, 문학 입문으로 특히 좋습니다."],
-         ["노르웨이의 숲","무라카미 하루키","청춘과 상실의 이야기. 문장이 감각적입니다."]],
+      1:[["쇼코의 미소","최은영","짧은 단편집. 잔잔하고 깊어 문학 입문으로 좋습니다."],
+         ["노르웨이의 숲","무라카미 하루키","청춘과 상실. 문장이 감각적입니다."],
+         ["데미안","헤르만 헤세","나를 찾아가는 성장의 고전. 문장이 어렵지 않습니다."],
+         ["어린 왕자","앙투안 드 생텍쥐페리","짧지만 어른에게 더 깊게 닿는 이야기."],
+         ["젊은 베르테르의 슬픔","괴테","사랑과 열병의 편지들. 고전 입문에 좋습니다."]],
       2:[["이방인","알베르 카뮈","짧지만 강렬한 고전. 문학의 문을 여는 한 권."],
-         ["위대한 개츠비","F. 스콧 피츠제럴드","화려함 뒤의 공허. 문장이 아름답습니다."]],
+         ["위대한 개츠비","F. 스콧 피츠제럴드","화려함 뒤의 공허. 문장이 아름답습니다."],
+         ["인간 실격","다자이 오사무","무너져가는 한 사람의 고백. 서늘하게 파고듭니다."],
+         ["참을 수 없는 존재의 가벼움","밀란 쿤데라","사랑과 삶의 무게를 사유하는 소설."],
+         ["슬픔이여 안녕","프랑수아즈 사강","열여덟에 쓴 감각적인 데뷔작."]],
       3:[["백년의 고독","가브리엘 가르시아 마르케스","한 가문의 백 년. 마술적 사실주의의 정점."],
-         ["댈러웨이 부인","버지니아 울프","하루를 흐르는 의식의 결. 천천히 음미할 책."]]
+         ["댈러웨이 부인","버지니아 울프","하루를 흐르는 의식의 결. 천천히 음미할 책."],
+         ["카라마조프가의 형제들","도스토옙스키","신과 인간을 묻는 대문호의 마지막 대작."],
+         ["율리시스","제임스 조이스","하루를 그린 모더니즘의 봉우리. 각오가 필요합니다."],
+         ["잃어버린 시간을 찾아서","마르셀 프루스트","기억의 심연을 더듬는 대장정."]]
     }},
   scifi:{ name:"질문을 사랑하는 사람", tag:"상상 · 사유", accent:"#57A79C",
     blurb:"당신은 '만약에?'라는 물음에 눈이 반짝이는 사람. 기발한 설정 하나가 세상을 새로 보게 만들 때, 이야기가 가장 짜릿합니다.",
     why:"아이디어의 재미가 앞서서, 이야기를 '생각하며' 즐기는 취향입니다.",
     books:{
-      1:[["우리가 빛의 속도로 갈 수 없다면","김초엽","따뜻하고 사색적인 우리 SF. 입문에 가장 권할 만합니다."],
-         ["프로젝트 헤일메리","앤디 위어","과학과 재미가 꽉 찬 모험. 손에서 놓기 어렵습니다."]],
-      2:[["당신 인생의 이야기","테드 창","단편마다 오래 곱씹게 되는 사유가 담겨 있습니다."],
-         ["유년기의 끝","아서 C. 클라크","인류의 운명을 묻는 SF의 고전."]],
+      1:[["우리가 빛의 속도로 갈 수 없다면","김초엽","따뜻하고 사색적인 우리 SF. 입문에 최적."],
+         ["프로젝트 헤일메리","앤디 위어","과학과 재미가 꽉 찬 모험. 손에서 놓기 어렵습니다."],
+         ["마션","앤디 위어","화성에 홀로 남은 남자의 생존기. 유쾌하고 똑똑합니다."],
+         ["지구 끝의 온실","김초엽","재난 이후의 세계를 그린 따뜻한 장편."],
+         ["보건교사 안은영","정세랑","젤리 괴물을 물리치는 보건교사. 상상이 유쾌합니다."]],
+      2:[["당신 인생의 이야기","테드 창","단편마다 오래 곱씹게 되는 사유."],
+         ["유년기의 끝","아서 C. 클라크","인류의 운명을 묻는 SF의 고전."],
+         ["안드로이드는 전기양을 꿈꾸는가","필립 K. 딕","'무엇이 인간인가'를 묻는 명작."],
+         ["멋진 신세계","올더스 헉슬리","행복이 강요된 미래. 디스토피아의 원형."],
+         ["1984","조지 오웰","감시받는 세계. 지금도 회자되는 고전."]],
       3:[["듄","프랭크 허버트","정치·종교·생태가 얽힌 방대한 우주. SF의 봉우리."],
-         ["솔라리스","스타니스와프 렘","이해할 수 없는 지성 앞의 인간. 철학적이고 묵직합니다."]]
+         ["솔라리스","스타니스와프 렘","이해할 수 없는 지성 앞의 인간. 철학적이고 묵직합니다."],
+         ["뉴로맨서","윌리엄 깁슨","사이버펑크의 시작. 문장부터 낯설고 강렬합니다."],
+         ["삼체","류츠신","외계 문명과의 조우를 그린 하드 SF의 화제작."],
+         ["어둠의 왼손","어슐러 K. 르 귄","성별 없는 행성에서 던지는 깊은 질문."]]
     }},
   realism:{ name:"일상을 껴안는 사람", tag:"현실 · 공감", accent:"#C9A567",
     blurb:"당신은 '나도 그래' 하고 고개를 끄덕이게 되는 이야기를 아끼는 사람. 멀리 있지 않은, 우리 곁의 삶에서 위로와 힘을 얻습니다.",
     why:"배경도 인물도 낯설지 않아, '내 이야기 같다'는 공감으로 끝까지 읽게 되는 취향입니다.",
     books:{
-      1:[["아몬드","손원평","쉽고 뭉클합니다. 첫 책으로 자주 권해지는 소설."],
-         ["완득이","김려령","유쾌하고 현실적. 웃다가 마음이 따뜻해집니다."]],
+      1:[["아몬드","손원평","쉽고 뭉클. 첫 책으로 자주 권해지는 소설."],
+         ["완득이","김려령","유쾌하고 현실적. 웃다가 마음이 따뜻해집니다."],
+         ["우아한 거짓말","김려령","한 아이의 죽음을 둘러싼 진실. 먹먹하게 읽힙니다."],
+         ["페인트","이희영","부모를 면접하는 아이들. 쉽고 생각할 거리가 많습니다."],
+         ["시선으로부터","정세랑","한 여성과 그 후손들의 이야기. 따뜻하고 단단합니다."]],
       2:[["82년생 김지영","조남주","우리 곁의 삶을 비추는 이야기. 공감의 폭이 넓습니다."],
-         ["파친코","이민진","재일 한인 4대의 삶. 묵직하지만 술술 읽힙니다."]],
+         ["파친코","이민진","재일 한인 4대의 삶. 묵직하지만 술술 읽힙니다."],
+         ["대도시의 사랑법","박상영","청춘의 사랑과 고독을 경쾌하게 그립니다."],
+         ["한국이 싫어서","장강명","떠나려는 청년의 이야기. 현실을 날카롭게 짚습니다."],
+         ["모순","양귀자","삶의 두 얼굴을 마주한 스물다섯. 오래 사랑받는 소설."]],
       3:[["난쟁이가 쏘아올린 작은 공","조세희","짧은 이야기들이 엮인, 한국 현대문학의 정수."],
-         ["토지","박경리","한 시대를 통째로 담은 대하소설. 독서 내공의 종착지."]]
+         ["토지","박경리","한 시대를 통째로 담은 대하소설. 독서 내공의 종착지."],
+         ["소년이 온다","한강","역사의 상처를 응시하는 노벨문학상 작가의 대표작."],
+         ["안나 카레니나","레프 톨스토이","사랑과 사회를 그린 사실주의의 걸작."],
+         ["광장","최인훈","분단을 정면으로 다룬 한국 문학의 이정표."]]
     }}
 };
 const ORDER = ["thriller","healing","fantasy","literary","scifi","realism"];
 
-/* ================= 취향 문항 (가중치) ================= */
+/* ================= 취향 문항(가중치) ================= */
 const TASTE_Q = [
   { q:"긴 하루 끝에 소파에 파묻혔습니다. 지금 곁에 두고 싶은 이야기는?",
     o:[["손에 땀을 쥐게 하는 팽팽한 사건",[["thriller",2]]],
@@ -311,7 +326,7 @@ const TASTE_Q = [
        ["“엄마는 오늘도 내 도시락 위에 미안하다고 적었다.”",[["realism",2]]]] }
 ];
 
-/* ================= 내공 문항 (레벨 점수) ================= */
+/* ================= 내공 문항(레벨 점수) ================= */
 const LEVEL_Q = [
   { q:"최근 1년, 소설을 얼마나 읽었나요?",
     o:[["거의 안 읽었어요",0],["한두 권쯤",1],["대여섯 권은 넘게",2],["늘 곁에 두고 읽어요",3]] },
@@ -324,15 +339,11 @@ const LEVEL_Q = [
   { q:"한 권을 다 읽고 나면, 나는?",
     o:[["'재밌었다'로 충분해요",0],["줄거리를 곱씹어요",1],["주제나 상징을 생각해요",2],["평론·해설을 찾아 읽어요",3]] }
 ];
-const LEVEL_MAX = 14; // 3+3+2+3+3
 
 /* ================= 상태 ================= */
 const shell = document.getElementById("shell");
 const total = TASTE_Q.length + LEVEL_Q.length;
-let step = 0;               // 0..total-1
-let scores = {};
-let levelScore = 0;
-let selectedLevel = 1;      // 결과 화면에서 보는 등급
+let step = 0, scores = {}, levelScore = 0, selectedLevel = 1;
 function resetState(){ scores = {}; ORDER.forEach(k=>scores[k]=0); levelScore = 0; step = 0; }
 resetState();
 
@@ -384,21 +395,14 @@ function renderStep(){
       <div class="opts">${opts}</div>
     </section>`;
 
-  document.getElementById("back").onclick = ()=>{
-    if(step===0){ renderIntro(); }
-    else{ step--; renderStep(); } // 참고: 뒤로 가면 이전 선택 점수는 그대로 두되, 다시 고르면 합산됩니다
-  };
+  document.getElementById("back").onclick = ()=>{ if(step===0){ renderIntro(); } else { step--; renderStep(); } };
 
   shell.querySelectorAll(".opt").forEach(btn=>{
     btn.onclick = ()=>{
       const i = +btn.dataset.i;
-      if(isTaste){
-        data.o[i][1].forEach(([k,w])=> scores[k]+=w);
-      }else{
-        levelScore += data.o[i][1];
-      }
-      if(step+1 < total){ step++; renderStep(); }
-      else{ renderResult(); }
+      if(isTaste){ data.o[i][1].forEach(([k,w])=> scores[k]+=w); }
+      else{ levelScore += data.o[i][1]; }
+      if(step+1 < total){ step++; renderStep(); } else { renderResult(); }
     };
   });
 }
@@ -485,9 +489,7 @@ async function shareResult(d, measured){
   const url = location.href.split("#")[0];
   const gate = d.books[measured][0][0];
   const text = `[소설 취향 테스트] 나는 '${d.name}' (${d.tag}) · 내공 ${LEVELS[measured].name}. 추천 첫 책은 「${gate}」!`;
-  try{
-    if(navigator.share){ await navigator.share({ title:"소설 취향 테스트", text, url }); return; }
-  }catch(e){}
+  try{ if(navigator.share){ await navigator.share({ title:"소설 취향 테스트", text, url }); return; } }catch(e){}
   try{
     await navigator.clipboard.writeText(text + " " + url);
     const note = document.getElementById("shareNote");
